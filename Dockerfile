@@ -24,7 +24,7 @@ RUN pip3 install requests \
     json-rpc \
     leveldb \
     setproctitle \
-    paramiko \
+    paramiko --user\
     numpy \
     pexpect
 RUN echo "root:123" | chpasswd
