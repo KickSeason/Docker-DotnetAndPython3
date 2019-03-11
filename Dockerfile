@@ -30,3 +30,4 @@ RUN pip3 install requests \
     numpy \
     pexpect
 RUN echo "root:123" | chpasswd
+ADD ./sshd_config /etc/ssh/
