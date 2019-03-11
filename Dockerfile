@@ -14,6 +14,8 @@ RUN apt-get update && apt-get install -y \
     psmisc \
     python3-pip \
     libssl-dev \
+    locales-all \
+    locales \
     expect
 RUN pip3 install requests \
     websocket-client \
